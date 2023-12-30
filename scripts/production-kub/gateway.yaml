@@ -20,7 +20,8 @@ spec:
     spec:
       containers: 
       - name: gateway
-        image: $CONTAINER_REGISTRY/gateway:1
+        image: $CONTAINER_REGISTRY/gateway
+        #        image: $CONTAINER_REGISTRY/gateway:1
         imagePullPolicy: IfNotPresent
         env:
         - name: PORT
