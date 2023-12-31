@@ -20,7 +20,8 @@ spec:
     spec:
       containers: 
       - name: gateway
-        image: $CONTAINER_REGISTRY/gateway:$VERSION
+        #        image: $CONTAINER_REGISTRY/gateway:$VERSION
+        image: gtcontreg.azurecr.io/gateway:$VERSION
         imagePullPolicy: IfNotPresent
         env:
         - name: PORT
