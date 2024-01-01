@@ -27,6 +27,8 @@ spec:
           value: "4000"
         - name: RABBIT
           value: amqp://test:test@rabbit:5672
+        - name: TIPOTA
+          value: "tipota"
 ---
 apiVersion: v1
 kind: Service
