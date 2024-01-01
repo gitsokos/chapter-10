@@ -22,3 +22,4 @@ set -u # or set -o nounset
 
 echo $REGISTRY_PW | docker login $CONTAINER_REGISTRY --username $REGISTRY_UN --password-stdin
 docker push $CONTAINER_REGISTRY/$NAME:$VERSION
+echo blablablablala > /dev/null
